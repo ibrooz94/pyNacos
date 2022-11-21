@@ -74,11 +74,57 @@ header{
   justify-content: space-around;
   align-items: center;
 }
+.hero-text h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 156px;
+}
+.hero-text h3 {
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+button {
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-top: 0.75rem;
+    font-family: var(--ff-primary);
+    padding: 0.60rem;
+    background: #024301;
+    border-radius: 4px;
+    border: #024301;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
 
+/* About section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
+    border-radius: 10px;
+    padding: 100px;
+}
 
+.about-section article {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.about-section div {
+    padding-left: 30px;
+}
 section {
-  height: 90vh;
+  height: 80vh;
   width: auto;
+  margin: 100px 50px;
 }
 
 /* footer style */
