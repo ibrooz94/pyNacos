@@ -67,12 +67,22 @@ header{
   background-position: center;
   background-size: cover;
 }
+header nav {
+    width: 90%;
+    margin: auto;
+}
 
 .hero{
   display: flex;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.hero-image img {
+    width: 500px;
+    height: auto;
 }
 .hero-text h1 {
     font-family: 'Montserrat';
@@ -84,6 +94,11 @@ header{
 .hero-text h3 {
     text-transform: capitalize;
     font-weight: lighter;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
 }
 button {
     text-transform: capitalize;
@@ -119,6 +134,23 @@ button {
     color: #000000;
 }
 .about-section div {
+    padding-left: 30px;
+}
+.our-mission {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.our-mission ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-bottom: 3%;
+}
+.our-mission div {
     padding-left: 30px;
 }
 section {
