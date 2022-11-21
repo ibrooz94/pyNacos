@@ -62,3 +62,9 @@ nav>ul {
     height: 90vh;
     width: auto;
   }
+
+  /* footer style */
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
