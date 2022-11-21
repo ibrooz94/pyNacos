@@ -53,3 +53,18 @@ nav>ul {
     padding: 0.5rem 1rem;
     transition: var(--transition);
   }
+  .hero {
+    height: 90vh;
+    width: auto;
+    
+  }
+  section {
+    height: 90vh;
+    width: auto;
+  }
+
+  /* footer style */
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
