@@ -1,8 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+*,
+::after,
+::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--ff-primary);
+    color: #001A00;
 }
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --ff-primary: 'Montserrat';
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav>ul {
+    list-style-type: none;
+
+}
+.links {
+    display: flex;
+    height: auto;
+}
+.links a {
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: var(--spacing);
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+  }
