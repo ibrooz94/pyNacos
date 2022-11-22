@@ -20,7 +20,7 @@ Variables
   margin: 0;
   padding: 0;
   font-family: var(--ff-primary);
-  color: #001A00;
+  /* color: #001A00; */
 }
 
 h1,
@@ -207,9 +207,35 @@ section {
   width: auto;
   margin: 8% 6%;
 }
+/* latest News */
+.latest-news {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
+    border-radius: 10px;
+    padding: 100px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* footer style */
 footer {
   display: flex;
   justify-content: space-around;
+  height: 60vh;
+  background: #000000;
+  color: white;
+  padding: 100px;
+  width: auto;
+  
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer img {
+  margin-right: 20px;
 }
