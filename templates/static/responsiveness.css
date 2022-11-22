@@ -1,0 +1,160 @@
+@media only screen and (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+    /*
+    =============== 
+    Variables
+    ===============
+    */
+
+    :root {
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --ff-primary: 'Montserrat';
+    }
+
+    *,
+    ::after,
+    ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff-primary);
+    /* color: #001A00; */
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        text-transform: uppercase;
+        line-height: 1.25;
+        margin-bottom: 0.75rem;
+        font-family: var(--ff-primary);
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+      }
+      
+      nav>ul {
+        list-style-type: none;
+      
+      }
+      .links {
+        display: flex;
+        height: auto;
+        visibility: hidden;
+      }
+      header {
+        height: 100vh;
+        background: url('./images/hero.png');
+        background-position: center;
+        background-size: cover;
+      }
+      .hero {
+        display: block;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+      }
+      .hero-image img {
+        visibility: hidden;
+      }
+      /* .hero-text h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 128px;
+        line-height: 156px;
+        margin-bottom: 0;
+      } 
+      .hero-text h3 {
+        text-transform: capitalize;
+        font-weight: lighter;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+        button {
+        text-transform: capitalize;
+        line-height: 1.25;
+        margin-top: 0.75rem;
+        font-family: var(--ff-primary);
+        padding: 0.60rem;
+        background: #024301;
+        border-radius: 4px;
+        border: #024301;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    */
+
+    /* About section */
+    .about-us {
+        display: block;
+        justify-content: center;
+        background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
+        border-radius: 10px;
+        padding: 1%;
+    }
+    .about-img {
+        visibility: hidden;
+    }
+    
+    .about-us,
+    .our-mission,
+    .latest-news h2 {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+    }
+    
+    .about-us article {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+    
+    .about-us div {
+        padding-left: 5%;
+    }
+    /* our mission */
+    .our-mission {
+        display: block;
+        justify-content: center;
+        padding: 1%;
+      }
+      
+      h2 {
+        font-size: 36px;
+        line-height: 44px;
+      }
+      
+      .our-mission ul li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        padding-bottom: 3%;
+      }
+      
+      .our-mission div {
+        padding-left: 5%;
+      }
+}
