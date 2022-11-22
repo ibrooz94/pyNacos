@@ -188,8 +188,9 @@ h2 {
 
 .latest-news .cards {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 3%;
 }
 
@@ -197,29 +198,17 @@ h2 {
   overflow: hidden;
   max-width: 30%;
 }
-.latest-news .card .text-box{
-  
+
+.latest-news .card .text-box {
   text-overflow: ellipsis;
   overflow: hidden;
   padding: 2%;
 }
+
 section {
   width: auto;
   margin: 8% 6%;
 }
-/* latest News */
-.latest-news {
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
-    border-radius: 10px;
-    padding: 100px;
-}
-.cards {
-  display: flex;
-  justify-content: space-between;
-}
-
 
 /* footer style */
 footer {
@@ -230,12 +219,41 @@ footer {
   color: white;
   padding: 100px;
   width: auto;
-  
+
 }
+
 footer a {
   color: white;
   text-decoration: none;
 }
+
 footer img {
-  margin-right: 20px;
+  display: inline-block;
+}
+
+footer div {
+  width: 40%;
+
+}
+
+footer .quick-links a {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+footer .get-in-touch ul {
+  width: 70%;
+}
+
+footer .get-in-touch ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+  margin: 3% 0;
+}
+
+footer .get-in-touch span {
+  padding-left: 4%;
 }
