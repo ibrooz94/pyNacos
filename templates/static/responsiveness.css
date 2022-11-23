@@ -157,4 +157,37 @@
       .our-mission div {
         padding-left: 5%;
       }
+
+      .latest-news {
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
+        border-radius: 10px;
+        padding: 4%;
+      }
+
+.latest-news h2 {
+  text-align: center;
+}
+
+.latest-news .cards {
+  display: block;
+  /* flex-direction: row; */
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3%;
+}
+
+.latest-news .card {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+
+.latest-news .card .text-box {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 2%;
+}
+
 }
