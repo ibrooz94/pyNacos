@@ -257,3 +257,7 @@ footer .get-in-touch ul li {
 footer .get-in-touch span {
   padding-left: 4%;
 }
+
+.arrowdown {
+  display: none;
+}
