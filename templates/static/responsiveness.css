@@ -39,17 +39,31 @@
         justify-content: space-between;
         padding: 1rem;
       }
+      .logo {
+        display: flex;
+        justify-content: space-between;
+      }
       
       
       nav>ul {
         list-style-type: none;
       
       }
-      .links {
-        display: flex;
-        height: auto;
-        visibility: hidden;
+
+      .links a {
+        font-size: 1rem;
+        text-transform: capitalize;
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: var(--transition);
       }
+      .links {
+        display: none;
+      }
+      .show-links {
+        height: 10rem;
+      }
+      
       header {
         height: 100vh;
         background: url('./images/hero.png');
@@ -212,4 +226,19 @@ footer {
   width: auto;
 
 }
+
+
+.nav-toggle {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+  display: flex;
+}
+.nav-toggle:hover {
+  transform: rotate(90deg);
+}
+
+
 }
