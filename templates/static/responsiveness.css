@@ -81,6 +81,9 @@
       .hero-image img {
         visibility: hidden;
       }
+      .hero-text h1 {
+        font-size: 80px;
+      }
       /* .hero-text h1 {
         font-family: 'Montserrat';
         font-style: normal;
@@ -123,10 +126,7 @@
         border-radius: 10px;
         padding: 1%;
     }
-    /* .about-img {
-        visibility: hidden;
-    }
-     */
+
     .about-us,
     .our-mission,
     .latest-news h2 {
