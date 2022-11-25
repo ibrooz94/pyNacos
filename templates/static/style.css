@@ -179,7 +179,7 @@ h2 {
   justify-content: center;
   background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
   border-radius: 10px;
-  padding: 4%;
+  padding: 2%;
 }
 
 .latest-news h2 {
@@ -191,15 +191,19 @@ h2 {
   /* flex-direction: row; */
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 3%;
+  padding: 2%;
 }
 
 .latest-news .card {
   overflow: hidden;
+  background: white;
   max-width: 30%;
+  /* max-height: 400px; */
 }
 
-.latest-news .card .text-box {
+.latest-news .card article{
+  line-height: 1.3em;
+  height: 50px;
   text-overflow: ellipsis;
   overflow: hidden;
   padding: 2%;
