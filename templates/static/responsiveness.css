@@ -1,262 +1,250 @@
 @media only screen and (max-width: 768px) {
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-    /*
+  /*
     =============== 
     Variables
     ===============
     */
 
-    :root {
+  :root {
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
     --ff-primary: 'Montserrat';
-    }
-    html {
-      width: 100%;
-    }
+  }
 
-    *,
-    ::after,
-    ::before {
+  html {
+    width: 100%;
+  }
+
+  *,
+  ::after,
+  ::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: var(--ff-primary);
     width: auto;
     /* color: #001A00; */
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4 {
-        text-transform: uppercase;
-        line-height: 1.25;
-        margin-bottom: 0.75rem;
-        font-family: var(--ff-primary);
-    }
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-      }
-      .logo {
-        display: flex;
-        justify-content: space-between;
-      }
-      
-      
-      nav>ul {
-        list-style-type: none;
-      
-      }
+  }
 
-      .links a {
-        font-size: 1rem;
-        text-transform: capitalize;
-        display: block;
-        padding: 0.5rem 1rem;
-        transition: var(--transition);
-      }
-      .links {
-        display: none;
-      }
-      .show-links {
-        height: 10rem;
-      }
-      
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-transform: uppercase;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primary);
+  }
 
-      header {
-        height: 100vh;
-        background: url('./images/hero.png');
-        background-position: center;
-        background-size: cover;
-      }
-      .hero {
-        display: block;
-        justify-content: center;
-        justify-content: space-around;
-        align-items: center;
-        width: 95%;
-        margin: auto;
-      }
-      .hero-image img {
-        visibility: hidden;
-      }
-      .hero-text h1 {
-        font-size: 80px;
-      }
-      /* .hero-text h1 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 128px;
-        line-height: 156px;
-        margin-bottom: 0;
-      } 
-      .hero-text h3 {
-        text-transform: capitalize;
-        font-weight: lighter;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 45px;
-    }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
 
-        button {
-        text-transform: capitalize;
-        line-height: 1.25;
-        margin-top: 0.75rem;
-        font-family: var(--ff-primary);
-        padding: 0.60rem;
-        background: #024301;
-        border-radius: 4px;
-        border: #024301;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        color: #FFFFFF;
-    }
-    */
-
-    /* About section */
-    .about-us {
-        display: block;
-        justify-content: center;
-        background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
-        border-radius: 10px;
-        padding: 1%;
-    }
-
-    .about-us,
-    .our-mission,
-    .latest-news h2 {
-        font-size: 36px;
-        line-height: 44px;
-        text-align: center;
-    }
-
-    .about-us article {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 0.05em;
-        color: #000000;
-    }
-    
-    .about-us div {
-        padding-left: 5%;
-    }
-    /* our mission */
-    .our-mission {
-        display: block;
-        justify-content: center;
-        padding: 1%;
-      }
-      
-      h2 {
-        font-size: 36px;
-        line-height: 44px;
-      }
-      
-      .our-mission ul li {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 0.05em;
-        color: #000000;
-        padding-bottom: 3%;
-      }
-      
-      .our-mission div {
-        padding-left: 5%;
-      }
-
-      .latest-news {
-        display: flex;
-        justify-content: center;
-        background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
-        border-radius: 10px;
-        padding: 4%;
-      }
-
-.latest-news h2 {
-  text-align: center;
-}
-
-.latest-news .cards {
-  display: block;
-  /* flex-direction: row; */
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 3%;
-  
-}
-.card {
-  margin-bottom: 3em;
-}
-
-.latest-news .card {
-  overflow: hidden;
-  max-width: 100%;
-}
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
 
 
-.latest-news .card .text-box {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  padding: 2%;
-}
-.img-container img {
-  width: 100%;
-}
-.arrowdown  {
-  display: flex;
-  justify-content: center;
-  visibility: visible;
-  padding: 0;
-  margin: 0;
-  
-}
-.arrowdown img {
-  height: 30vh;
-}
+  nav>ul {
+    list-style-type: none;
 
-/* footer style */
-footer {
-  display: block;
-  height: auto;
-  background: #000000;
-  color: white;
-  padding: 20px;
-  width: auto;
+  }
 
-}
-.quick-links {
-  width: 100%;
-}
-.get-in-touch {
-  width: 100%;
-}
+  .links a {
+    font-size: 1rem;
+    text-transform: capitalize;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+  }
+
+  .links {
+    display: none;
+  }
+
+  .show-links {
+    height: 10rem;
+  }
 
 
-.nav-toggle {
-  font-size: 1.5rem;
-  background: transparent;
-  border-color: transparent;
-  transition: var(--transition);
-  cursor: pointer;
-  display: flex;
-}
-.nav-toggle:hover {
-  transform: rotate(90deg);
-}
+  header {
+    height: 100vh;
+    background: url('./images/hero.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero {
+    display: block;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+  }
+
+  .hero-image img {
+    display: none;
+  }
+
+  .hero-text h1 {
+    font-size: 80px;
+  }
+
+  /* About section */
+  .about-us {
+    display: block;
+    justify-content: center;
+    background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
+    border-radius: 10px;
+    padding: 1%;
+  }
+
+  .our-mission,
+  .about-us img {
+    max-width: 60%;
+  }
+
+  .about-us,
+  .our-mission,
+  .latest-news h2 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .about-us article {
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 20px; */
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .about-us div {
+    padding-left: 5%;
+  }
+
+  /* our mission */
+  .our-mission {
+    display: block;
+    justify-content: center;
+    padding: 1%;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .our-mission ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-bottom: 3%;
+  }
+
+  .our-mission div {
+    padding-left: 5%;
+  }
+
+  .latest-news {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(109.38deg, #D1F6D0 3.94%, #A4D7FA 87.18%);
+    border-radius: 10px;
+    padding: 4%;
+  }
+
+  .latest-news h2 {
+    text-align: center;
+  }
+
+  .latest-news .cards {
+    display: block;
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3%;
+
+  }
+
+  .card {
+    margin-bottom: 3em;
+  }
+
+  .latest-news .card {
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+
+  .latest-news .card .text-box {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 2%;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+
+  .arrowdown {
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .arrowdown img {
+    height: 30vh;
+  }
+
+  /* footer style */
+  footer {
+    display: block;
+    height: auto;
+    background: #000000;
+    color: white;
+    padding: 20px;
+    width: auto;
+
+  }
+
+  .quick-links {
+    width: 100%;
+  }
+
+  .get-in-touch {
+    width: 100%;
+  }
+
+
+  .nav-toggle {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+    display: flex;
+  }
+
+  .nav-toggle:hover {
+    transform: rotate(90deg);
+  }
 
 
 }

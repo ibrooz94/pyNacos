@@ -91,7 +91,7 @@ header nav {
   font-style: normal;
   font-weight: 800;
   font-size: 128px;
-  line-height: 156px;
+  /* line-height: 156px; */
   margin-bottom: 0;
 }
 
@@ -218,7 +218,7 @@ section {
 footer {
   display: flex;
   justify-content: space-around;
-  height: 60vh;
+  /* height: 60vh; */
   background: #000000;
   color: white;
   padding: 100px;
